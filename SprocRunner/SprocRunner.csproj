@@ -5,6 +5,8 @@
     <Title>Sproc Runner</Title>
     <Authors>Mustafa Saeed Haji Ali</Authors>
     <Description>Creates an endpoint that can run stored procedures.</Description>
+    <PackageProjectUrl>https://github.com/xTRUMANx/SprocRunner</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/xTRUMANx/SprocRunner</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>
