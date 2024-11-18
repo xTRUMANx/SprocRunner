@@ -1,0 +1,18 @@
+@SprocRunner.Client_HostAddress = http://localhost:5001
+
+GET {{SprocRunner.Client_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+
+POST {{SprocRunner.Client_HostAddress}}/sprocRunner/asd
+Accept: application/json
+Content-Type: application/json
+
+{
+    "Db": "ContosoUniversityDotNetCore-Pages",
+    "schema": "dbo",
+    "sproc": "GetCourses"
+}
+###
+
